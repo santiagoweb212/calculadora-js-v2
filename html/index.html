@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-display">
+        <div class="display1"></div>
+        <div class="display">0</div>
+      </div>
+      <div >
+        <div class="div">
+          <div class="div__rectangle"></div>
+        </div>
+        <div class="container-buttons">
+         <div class="container-buttons__rown1">
+          <button data-operador="borrar"  class="btn__color-gris">C</button>
+          <button data-operador="suma-resta-alternada"  class="btn__color-gris">+/-</button>
+          <button data-operador="porcentaje"  class="btn__color-gris">%</button>
+          <button data-operador="dividir"  class="btn__color-violet">/</button>
+         </div>
+         <div class="container-buttons__rown1" >
+          <button data-numero>7</button>
+          <button data-numero>8</button>
+          <button data-numero>9</button>
+          <button data-operador="multiplicar" class="btn__color-violet">x</button>
+         </div>
+         <div class="container-buttons__rown1">
+          <button data-numero>4</button>
+          <button data-numero>5</button>
+          <button data-numero>6</button>
+          <button data-operador="restar" class="btn__color-violet">-</button>
+         </div>
+         <div class="container-buttons__rown1">
+          <button data-numero>1</button>
+          <button data-numero>2</button>
+          <button data-numero>3</button>
+          <button data-operador="sumar" class="btn__color-violet">+</button>
+         </div>
+         <div class="container-buttons__rown1">
+          <button data-numero class="btn__big">0</button>
+          <button data-numero>.</button>
+          <button data-operador="igual"  class="btn__igual"> =</button>
+          
+         </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../js/indexv2.js"></script>
+  </body>
+</html>
